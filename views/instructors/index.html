@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Gym Manager</title>
+</head>
+<body>
+  <header>
+  <div class="links">
+    <a href="/" class="active">Instrutors</a>
+    <a href="/members">Memberss</a>
+    <a href="/instructors/create">Create Memberss</a>
+  </div>
+  </header>
+
+  <div class="card" data-js="form">
+    <section class="avatar" data-js="conteudo"
+    ></section>
+    <section class="details">
+      <h3>Detalhes</h3>
+
+      <div class="item">
+        <div>Instrutor</div>
+        <div data-js="conteudo"></div>
+      </div>
+
+      <div class="item">
+        <div>Idade</div>
+        <div data-js="conteudo"></div>
+      </div>
+
+      <div class="item">
+        <div>Acompanhamento</div>
+        <div>
+          <span data-js="conteudo"></span>
+        </div>
+      </div>
+      <div class="item">
+        <div>Desde</div>
+        <div data-js="conteudo"></div>
+      </div>
+    </section>
+      <input type="search" data-js="pesquisar" placeholder="search" style=" border-color: black">
+      <button type="submit">Pesquisar</button>
+  </div>
+  <script src="/hanldle.js"></script>
+  <script>
+    
+  let data = new Date();
+  console.log(data);
+  </script>
+</body>
+</html>
